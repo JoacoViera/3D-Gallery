@@ -1,0 +1,1 @@
+Photos Gallery with a search bar
