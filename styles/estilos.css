@@ -147,6 +147,9 @@ figure .trasera p {
 	font-size: 14px;
 }
 
+/* Para dispositivos moviles o tables el evento de girar no funciona bien como cuando le pasas un cursor
+por lo tanto mejor dejarlo fijo, sin mostrar la otra cara de la tarjeta.
+Se agrega un nuevo efecto que es de opacidad cuando seleccionemos la que nos interese */
 @media screen and (max-width: 992px) { 
 
 	figure{
