@@ -7,6 +7,7 @@ Just HTML CSS and JS :)
 ## Visual Effects
 
 A kind of 3d twist, for me it pretty cool
+
 ![alt text](img/ej.png)
 
 For some reason in mobiles devices the 3d twist doesn't work well, so with media queries y change de opacity with a hover effect for mobiles.
