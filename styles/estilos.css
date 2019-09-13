@@ -74,10 +74,6 @@ header .categorias a.activo {
 	margin: 20px;
 }
 
-.contenedor_tarjeta a {
-	display: inline-block;
-}
-
 .contenedor_tarjeta:hover figure {
 	transform: perspective(600px) rotateY(180deg);
 	border-radius: 4%;
@@ -154,17 +150,12 @@ Se agrega un nuevo efecto que es de opacidad cuando seleccionemos la que nos int
 
 	figure{
 		opacity: .5;
-	}
-	figure .trasera{
-		backface-visibility: hidden;
+		transition: all ease;
+		transform: rotateY(180deg);
 	}
 
 	figure:hover {
 		opacity: 1;
-	}
-
-	.contenedor_tarjeta:hover figure {
-		transform: perspective(600px) rotateY(0deg);
 	}
 
 	.contenedor_tarjeta:hover figure img{
