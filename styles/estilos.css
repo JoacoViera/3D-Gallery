@@ -108,7 +108,7 @@ figure .trasera {
 	transition: all ease .5s;
 }
 
-/* Podemos ocultar la imagen al da la vuelta si lo queremos */
+/* We can hidde the img when we rotate it */
 /*backface-visibility: hidden;*/
 figure .frontal {
 	display: block;
@@ -154,6 +154,9 @@ Se agrega un nuevo efecto que es de opacidad cuando seleccionemos la que nos int
 
 	figure{
 		opacity: .5;
+	}
+	figure .trasera{
+		backface-visibility: hidden;
 	}
 
 	figure:hover {
