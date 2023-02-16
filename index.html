@@ -1,238 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Gallery 3D</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/estilos.css" />
+    <script src="js/main.js" defer></script>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Gallery 3D</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="styles/estilos.css">
-	<script src="js/main.js" defer></script>
-</head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <form action="">
+          <input
+            type="text"
+            class="barra-busqueda"
+            id="barra-busqueda"
+            placeholder="Buscar"
+          />
+        </form>
+        <div class="categorias" id="categorias">
+          <a href="#" class="activo">All</a>
+          <a href="#">Animals</a>
+          <a href="#">City</a>
+          <a href="#">Nature</a>
+          <a href="#">People</a>
+        </div>
+      </header>
 
-<body>
+      <section class="grid" id="grid">
+        <div
+          class="contenedor_tarjeta natue snow landscape"
+          id="contenedor_tarjeta"
+        >
+          <figure id="tarjeta">
+            <img src="img/1.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
 
-	<div class="contenedor">
+        <div class="contenedor_tarjeta natue desert landscape">
+          <figure id="tarjeta">
+            <img src="img/2.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
 
-		<header>
-			<form action="">
-				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
-			</form>
-			<div class="categorias" id="categorias">
-				<a href="#" class="activo">Todos</a>
-				<a href="#">Animales</a>
-				<a href="#">Ciudades</a>
-				<a href="#">Naturaleza</a>
-				<a href="#">Personas</a>
-			</div>
-		</header>
+        <div class="contenedor_tarjeta animals animal lio feline felines">
+          <figure id="tarjeta">
+            <img src="img/3.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
 
-		<section class="grid" id="grid">
+        <div class="contenedor_tarjeta animals panda animal">
+          <figure id="tarjeta">
+            <img src="img/4.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
 
-			<div class="contenedor_tarjeta naturaleza nieve paisaje" id="contenedor_tarjeta">
+        <div class="contenedor_tarjeta city buildings building street cars">
+          <figure id="tarjeta">
+            <img src="img/5.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
 
-				<figure id="tarjeta">
-					<img src="img/1.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div class="contenedor_tarjeta naturaleza desierto paisaje">
-
-				<figure id="tarjeta">
-					<img src="img/2.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div class="contenedor_tarjeta animales animal leon felino felinos">
-
-				<figure id="tarjeta">
-					<img src="img/3.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div class="contenedor_tarjeta animales panda animal">
-
-				<figure id="tarjeta">
-					<img src="img/4.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div class="contenedor_tarjeta ciudades edificios ciudad edificio calle autos">
-
-				<figure id="tarjeta">
-					<img src="img/5.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div class="contenedor_tarjeta ciudades ciudad edificio edificios">
-
-				<figure id="tarjeta">
-					<img src="img/6.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta naturaleza playa agua paisaje natural">
-
-				<figure id="tarjeta">
-					<img src="img/7.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta naturaleza playa montaña paisaje">
-
-				<figure id="tarjeta">
-					<img src="img/8.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta naturaleza paisaje montaña nubes cerros cerro">
-
-				<figure id="tarjeta">
-					<img src="img/9.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta personas mujer modelo">
-
-				<figure id="tarjeta">
-					<img src="img/10.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta naturaleza bosque paisaje arbol arboles">
-
-				<figure id="tarjeta">
-					<img src="img/11.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta animales lobo perro animal">
-
-				<figure id="tarjeta">
-					<img src="img/12.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta personas persona mujer foto">
-
-				<figure id="tarjeta">
-					<img src="img/13.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta personas naturaleza foto hombre paisaje">
-
-				<figure id="tarjeta">
-					<img src="img/14.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-			<div class="contenedor_tarjeta ciudades edificio edificios ciudad atardecer">
-
-				<figure id="tarjeta">
-					<img src="img/15.png" class="frontal" alt="">
-					<figcaption class="trasera">
-						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
-						<hr>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates
-							ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
-					</figcaption>
-				</figure>
-
-			</div>
-		</section>
-	</div>
-
-</body>
-
+        <div class="contenedor_tarjeta city building buildings">
+          <figure id="tarjeta">
+            <img src="img/6.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="contenedor_tarjeta nature beach water landscape ocean">
+          <figure id="tarjeta">
+            <img src="img/7.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="contenedor_tarjeta nature beach mountain landscape">
+          <figure id="tarjeta">
+            <img src="img/8.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div
+          class="contenedor_tarjeta nature lanscape mountain clouds cloud hill hills"
+        >
+          <figure id="tarjeta">
+            <img src="img/9.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div
+          class="contenedor_tarjeta people person women woman model influencer"
+        >
+          <figure id="tarjeta">
+            <img src="img/10.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="contenedor_tarjeta nature forest landscape tree trees">
+          <figure id="tarjeta">
+            <img src="img/11.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="contenedor_tarjeta animal wolf dog wolfs animals">
+          <figure id="tarjeta">
+            <img src="img/12.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div
+          class="contenedor_tarjeta people person woman women picture photo selfie"
+        >
+          <figure id="tarjeta">
+            <img src="img/13.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div
+          class="contenedor_tarjeta people person nature photo picture selfie landscape nature"
+        >
+          <figure id="tarjeta">
+            <img src="img/14.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="contenedor_tarjeta city building buildings sunset">
+          <figure id="tarjeta">
+            <img src="img/15.png" class="frontal" alt="" />
+            <figcaption class="trasera">
+              <h2 class="titulo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
+                vero!
+              </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo
+                architecto nihil corrupti.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
